@@ -1,0 +1,84 @@
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navi {
+padding-left: 20px;
+padding-right: 20px;
+margin: 0;
+
+}
+
+nav {
+position:fixed;
+top: 0;
+margin: 0;
+padding: 0;
+}
+
+.bell {
+background-color: olive;
+border-radius: 50%;
+padding-right: 0.4rem;
+padding-left: 0.4rem;
+color: white;
+position: relative;
+right: 33px;
+bottom: 12px;
+}
+
+.user-img {
+width: 50px;
+border-radius: 50%;
+}
+
+.line {
+width: 70%;
+height: 2px;
+background-color: #c7c7c7;
+margin-top: 20px;
+}
+
+.img-card-top {
+width: 120px;
+}
+
+.name {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.post-images {
+display: flex;
+gap: 10px;
+
+}
+
+.post-images img {
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+
+small {
+font-weight: 900;
+color: #c7c7c7;
+position: absolute;
+left: 85%;
+}
+
+.container-fluid {
+display: flex;
+gap: 5px;
+position: relative;
+top: 85px;
+}
+.img-fluid img{
+  width: 100px;
+}
+.inputBtn{
+  width: 120px ;margin-right:4px
+}
